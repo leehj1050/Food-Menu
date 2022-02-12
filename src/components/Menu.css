@@ -1,0 +1,20 @@
+.MenuWrap {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+
+  margin-top: 2rem;
+  padding: 1em;
+}
+
+.MenuWrap div {
+  margin: 1rem;
+}
+
+@media all and (max-width: 1833px) {
+  .MenuWrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
